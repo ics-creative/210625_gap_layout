@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{let e=!1;const t=document.querySelector(".hamburger-button"),s=document.querySelector(".header");t.addEventListener("click",(()=>{e=!e,e?(s.classList.add("is-active"),t.classList.add("is-active")):(s.classList.remove("is-active"),t.classList.remove("is-active"))}))}));
